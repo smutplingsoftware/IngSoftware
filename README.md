@@ -16,3 +16,4 @@ Para ejecutar el proyecto en la terminal ejecutamos:
 
 ng serve 
 
+Entrar en nuestro navegador e ingresamos a http://localhost:4200/

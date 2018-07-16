@@ -5,13 +5,15 @@ import { HomeComponent } from './home/home.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
-import { TruncatePipe } from './pipes/truncate.pipe'
+import { TruncatePipe } from './pipes/truncate.pipe';
+import { ClientesComponent } from './clientes/clientes.component'
+
 
 @NgModule({
 declarations: [
 AppComponent,
 HomeComponent, 
-TruncatePipe
+TruncatePipe, ClientesComponent
 ],
 imports: [
 BrowserModule,

@@ -1,6 +1,48 @@
-<mat-list>
-  <mat-list-item *ngFor="let logro of logros">
-    <h3 matLine>{{logro.title}}</h3>
-    <p matLine>{{logro.description | truncate: 30}}</p>
-  </mat-list-item>
-</mat-list>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">TAREA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Clientes <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Bicicletas</a>
+            <a class="nav-item nav-link" href="#">Estaciones</a>
+            <a class="nav-item nav-link disabled" href="#">Pagos</a>
+        </div>
+    </div>
+</nav>
+
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Nombres</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Pedro Pablo">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputPassword4">Apellidos</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Escobar Gaviria">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Direccion</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group">
+        <label for="inputAddress2">Tarjeta de Credito</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="099999999">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">Cedula</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="099999999">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputTele">Telefono</label>
+            <input type="text" class="form-control" id="inputTele" placeholder="099999999">
+        </div>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cliente</button>
+</form>

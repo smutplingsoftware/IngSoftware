@@ -8,7 +8,7 @@ MySql 5.0
 
 Primero debemos tener en nuestro computadora instalado MySql y ejecutar el archivo script BD.sql que se encuentra en el repositorio con el nombre de la base de datos "web". 
 
-Para descargar o clonar el proyecto debes pararte en tu proyecto en la terminal y ejecutar: 
+Para descargar o clonar el proyecto debes ubicarte en el directorio en tu proyecto en la terminal y ejecutar: 
 
 npm install
 

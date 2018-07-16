@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97a9492-b903-41c7-a3a4-ed00a2220cbb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Proyecto/src/app/app.routing.ts" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/app/app.component.css" afterPath="$PROJECT_DIR$/Proyecto/src/app/app.component.css" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/app/app.component.html" afterPath="$PROJECT_DIR$/Proyecto/src/app/app.component.html" />
       <change beforePath="$PROJECT_DIR$/Proyecto/src/app/app.module.ts" afterPath="$PROJECT_DIR$/Proyecto/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/Proyecto/src/app/home/home.component.html" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/src/index.html" afterPath="$PROJECT_DIR$/Proyecto/src/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
@@ -41,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Proyecto/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="-150">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -122,10 +116,10 @@
       <list>
         <option value="$PROJECT_DIR$/Proyecto/src/index.html" />
         <option value="$PROJECT_DIR$/Proyecto/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Proyecto/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/Proyecto/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Proyecto/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/Proyecto/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -236,12 +230,12 @@
       <workItem from="1531759340868" duration="579000" />
       <workItem from="1531759944462" duration="604000" />
       <workItem from="1531760693358" duration="290000" />
-      <workItem from="1531770595888" duration="2192000" />
+      <workItem from="1531770595888" duration="2762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3665000" />
+    <option name="totallyTimeSpent" value="4235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -305,16 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -346,6 +330,16 @@
         <state relative-caret-position="227">
           <caret line="46" column="65" lean-forward="false" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

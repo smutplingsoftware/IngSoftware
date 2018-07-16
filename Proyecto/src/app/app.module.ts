@@ -8,6 +8,24 @@ import { MatListModule } from '@angular/material/list';
 import { TruncatePipe } from './pipes/truncate.pipe';
 import { ClientesComponent } from './clientes/clientes.component'
 
+@Module({
+    imports: [
+        TypeOrmModule.forRoot({
+            type: 'mysql',
+            host: 'localhost',
+            port: 3306,
+            username: 'root',
+            password: 'root',
+            database: 'web',
+            entities: [__dirname + '/../**/*.entity{.ts,.js}'],
+            synchronize: true,
+            ssl :true
+        }),
+        TypeOrmModule.forFeature([UsuarioEntity, AutorEntity, LibroEntity])
+    ],
+    controllers: [AppController, AutorController, LibroController, AutorizacionController, UsuarioController],
+    providers: [AppService, AutorService, LibroService, UsuarioService],
+})
 
 @NgModule({
 declarations: [
